@@ -1,6 +1,8 @@
-element.style {
-    background: #161c22;
-}
 h2 {
 color:#fffb00;
+}
+.controls
+{
+background:#fffb00;
+color:#ffffff;
 }
