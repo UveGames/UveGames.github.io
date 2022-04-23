@@ -6,7 +6,5 @@ var user, pass;
   user = document.getElementById("Usuario").value;
   pass = document.getElementById("Contraseña").value;
 
-if(user == "Dios" && pass == "Dios"){src"youtube.com"
-  
-}
+if(user == "Dios" && pass == "Dios"){window.location="youtube.com";}
 }
