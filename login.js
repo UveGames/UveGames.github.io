@@ -1,10 +1,10 @@
 /*datos de prueba y Elementos por defecto*/
 
 function login () {
-baseDeDatos ={
-var user, pass;
-  user = document.getElementById("Usuario").value;
-  pass = document.getElementById("Contraseña").value;
-
-if(user == "Dios" && pass == "Dios"){window.location="youtube.com";}
+var c=Dios;
+var u="Dios";
+if(document.form.password.value==c && document.form.login.value==u)
+  window.location="Youtube.com";
+  else
+  alert("Usuario o Contraseña Incorectos");
 }
