@@ -1,18 +1,12 @@
 /*datos de prueba y Elementos por defecto*/
-baseDeDatos= localStorage.getItem("sistema-de-login")
-if(!baseDeDatos){
-cargardatosiniciales()
-}
-function cargardatosiniciales () {
+
+function login () {
 baseDeDatos ={
-1234567890:{
-contraseña:"abc",
-puntos: 0
-},
-"0987654321":{
-contraseña:"def",
-puntos: 0
-},
-};
+var user, pass;
+  user = document.getElementById("usuario").value;
+  pass = document.getElementById("contraseña").value;
+
+if(user == "Dios" && pass == "Dios"){src"youtube.com"
+  
 }
-swal.fire("Funcionando")
+}
