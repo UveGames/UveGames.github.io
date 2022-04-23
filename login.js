@@ -1,6 +1,6 @@
 /*datos de prueba y Elementos por defecto*/
 
-function login () {
+function login() {
 var c=Dios;
 var u="Dios";
 if(document.form.password.value==c && document.form.login.value==u)
