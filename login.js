@@ -5,9 +5,9 @@ var c="Dios";
 var u="Dios";
   
 var user=
-    document.getElementById("user")
+    document.getElementById("login")
 var pass=
-    document.getElementById("pass")
+    document.getElementById("password")
 
 if(document.form.password.value===c && document.form.login.value===u)
   window.location="Youtube.com";
